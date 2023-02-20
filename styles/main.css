@@ -1,0 +1,110 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  text-decoration: none;
+  list-style-type: none;
+  color: white;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #20211e;
+}
+
+.inner--default, header .header__container, .hero .header__container {
+  max-width: 90rem;
+  margin: 0 auto;
+}
+
+footer {
+  padding: 2vw 2vw 2vw 2vw;
+  background-color: #20211e;
+}
+footer .footer_conteiner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .footer_conteiner ul {
+  margin: 5px 20px 15px 20px;
+}
+footer .footer_conteiner h3 {
+  background: linear-gradient(270deg, rgb(43, 13, 65), rgb(114, 17, 98));
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+footer .footer_conteiner li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .autor {
+  border-top: 10px solid;
+  border-image-source: linear-gradient(90deg, rgb(43, 13, 65), rgb(114, 17, 98));
+  border-image-slice: 1;
+}
+footer .autor h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 10px 0px 0px;
+}
+
+.hero {
+  background: rgb(43, 13, 65);
+  background: linear-gradient(121deg, rgb(43, 13, 65) 0%, rgb(114, 17, 98) 100%);
+  width: 100vw;
+  height: 100vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.hero .header__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5rem 10rem;
+  border: 0.63rem solid white;
+}
+.hero .header__container h1 {
+  color: #00bfcc;
+  margin-bottom: 3rem;
+}
+.hero .header__container p {
+  margin-bottom: 3rem;
+}
+
+header {
+  position: fixed;
+  width: 100vw;
+  padding: 2rem 0;
+  background-color: #20211e;
+}
+header .header__container {
+  display: flex;
+  justify-content: space-between;
+}
+header h4 {
+  color: #ff53a5;
+}
+header ul {
+  display: flex;
+}
+header ul li {
+  margin-left: 1rem;
+  border-bottom: 0.063rem solid transparent;
+  padding-bottom: 0.5rem;
+}
+header ul li:hover {
+  border-bottom: 0.063rem solid;
+  border-image-source: linear-gradient(121deg, rgb(43, 13, 65) 0%, rgb(114, 17, 98) 100%);
+  border-image-slice: 1;
+}/*# sourceMappingURL=main.css.map */
