@@ -31,6 +31,8 @@
 				</header>
 			";
 		}
+
+
 		static function printFooter() {
 			echo'
 			<footer>

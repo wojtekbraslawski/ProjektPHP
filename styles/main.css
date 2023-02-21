@@ -15,7 +15,7 @@ body {
   background-color: #20211e;
 }
 
-.inner--default, header .header__container, .hero .header__container {
+.inner--default, header .header__container {
   max-width: 90rem;
   margin: 0 auto;
 }
@@ -60,26 +60,58 @@ footer .autor h2 {
   background: linear-gradient(121deg, rgb(43, 13, 65) 0%, rgb(114, 17, 98) 100%);
   width: 100vw;
   height: 100vw;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
+  align-items: center;
 }
 .hero .header__container {
+  border-radius: 20px;
+  border: 5px linear-gradient(121deg, rgb(43, 13, 65) 0%, rgb(114, 17, 98) 100%);
+  background-color: #20211e;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  padding: 5rem 10rem;
-  border: 0.63rem solid white;
+  margin: 0px 0px 10px 10px;
 }
-.hero .header__container h1 {
-  color: #00bfcc;
-  margin-bottom: 3rem;
+.hero .header__container button {
+  width: 200px;
+  height: 30px;
+  border-radius: 20px;
+  border: 5px linear-gradient(121deg, rgb(43, 13, 65) 0%, rgb(114, 17, 98) 100%);
+  background-color: black;
 }
-.hero .header__container p {
-  margin-bottom: 3rem;
+.hero .header__container img {
+  width: 200px;
+  height: 150px;
+}
+.hero .header__container ul {
+  margin: 20px 20px 15px 20px;
+}
+.hero .header__container h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(270deg, rgb(43, 13, 65), rgb(114, 17, 98));
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.hero .header__container li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero .header__container .autor {
+  border-top: 10px solid;
+  border-image-source: linear-gradient(90deg, rgb(43, 13, 65), rgb(114, 17, 98));
+  border-image-slice: 1;
+}
+.hero .header__container .autor h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 10px 0px 0px;
 }
 
 header {
