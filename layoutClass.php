@@ -32,6 +32,17 @@
 			";
 		}
 
+		static function printHero() {
+			echo "
+			<section class='hero'>
+			<div class='hero_container'>
+				<h3 class='hero_container_column'>bread<h3>
+				<h3 class='hero_container_column'>better bread</h3>
+				<h3 class='hero_container_column'>nice bread<h3>
+			</div>
+		</section>
+			";
+		}
 
 		static function printFooter() {
 			echo'

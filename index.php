@@ -13,24 +13,26 @@ require_once "layoutClass.php";
 <body>
 	<?php
 		LayoutClass::printHeader();
+
+		LayoutClass::printHero();
 	?>
 
-	<section class='hero'>	
-		<div class="header__container">
+	<section class='card'>	
+		<div class="card__container">
 					<ul>
 					<h3>Akcesoria </h3>
 					<img src="./assets/pad.png" >
 						<li><button type="button" onclick="alert('Jescze nie ma pod strony')">Sprawdz Produkty</button></li>
 					</ul>
   		</div>
-		<div class="header__container">
+		<div class="card__container">
 					<ul>
 					<h3>Akcesoria </h3>
 					<img src="./assets/pad.png" >
 						<li><button type="button" onclick="alert('Jescze nie ma pod strony')">Sprawdz Produkty</button></li>
 					</ul>
   		</div>
-		<div class="header__container">
+		<div class="card__container">
 					<ul>
 					<h3>Akcesoria </h3>
 					<img src="./assets/pad.png" >
