@@ -12,7 +12,7 @@
 }
 
 body {
-  background-color: #20211e;
+  background: linear-gradient(0deg, rgb(43, 13, 65), rgb(114, 17, 98));
 }
 
 .inner--default, header .header__container {
@@ -55,9 +55,7 @@ footer .autor h2 {
   margin: 20px 10px 0px 0px;
 }
 
-.hero {
-  background: rgb(43, 13, 65);
-  background: linear-gradient(121deg, rgb(43, 13, 65) 0%, rgb(114, 17, 98) 100%);
+.card {
   width: 100vw;
   height: 100vw;
   display: flex;
@@ -65,30 +63,28 @@ footer .autor h2 {
   justify-content: center;
   align-items: center;
 }
-.hero .header__container {
+.card .card__container {
   border-radius: 20px;
-  border: 5px linear-gradient(121deg, rgb(43, 13, 65) 0%, rgb(114, 17, 98) 100%);
   background-color: #20211e;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0px 0px 10px 10px;
 }
-.hero .header__container button {
+.card .card__container button {
   width: 200px;
   height: 30px;
   border-radius: 20px;
-  border: 5px linear-gradient(121deg, rgb(43, 13, 65) 0%, rgb(114, 17, 98) 100%);
   background-color: black;
 }
-.hero .header__container img {
+.card .card__container img {
   width: 200px;
   height: 150px;
 }
-.hero .header__container ul {
+.card .card__container ul {
   margin: 20px 20px 15px 20px;
 }
-.hero .header__container h3 {
+.card .card__container h3 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -97,17 +93,17 @@ footer .autor h2 {
           background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.hero .header__container li {
+.card .card__container li {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.hero .header__container .autor {
+.card .card__container .autor {
   border-top: 10px solid;
   border-image-source: linear-gradient(90deg, rgb(43, 13, 65), rgb(114, 17, 98));
   border-image-slice: 1;
 }
-.hero .header__container .autor h2 {
+.card .card__container .autor h2 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -132,11 +128,11 @@ header ul {
 }
 header ul li {
   margin-left: 1rem;
-  border-bottom: 0.063rem solid transparent;
+  border-bottom: 0.2rem solid transparent;
   padding-bottom: 0.5rem;
 }
 header ul li:hover {
-  border-bottom: 0.063rem solid;
+  border-bottom: 0.2rem solid;
   border-image-source: linear-gradient(121deg, rgb(43, 13, 65) 0%, rgb(114, 17, 98) 100%);
   border-image-slice: 1;
 }/*# sourceMappingURL=main.css.map */
