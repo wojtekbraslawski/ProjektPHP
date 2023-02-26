@@ -60,7 +60,7 @@ footer {
 
 .card {
 	width: 100vw;
-	height: 100vw;
+	min-height: 30vw;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
@@ -116,11 +116,10 @@ footer {
 }
 
 .hero {
-    height: 90vh;
+    height: 60vh;
     width: 100vw;
     background-position: center;
-    background: rgb(180,180,180);
-    background: linear-gradient(180deg, rgb(0, 0, 0) 15%, rgb(161, 42, 42) 58%, $connecting_color 100%);
+    background: transparent;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -132,11 +131,11 @@ footer {
         justify-content: center;
         padding: 6rem;
         width: 80vw;
-        border: 0.063rem solid $white;
+        border: 0.2rem solid $darkGrey;
         gap: 10px;
         .hero_container_column {
             padding: 2rem;
-            border: 0.063rem dotted $blue;
+            border: 0.2rem solid $darkGrey;
         }
     }
 }
