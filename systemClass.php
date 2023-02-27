@@ -1,4 +1,5 @@
 <?php 
+session_start();
 
 class SystemClass{
 	static function printHead($stylePath){
@@ -12,5 +13,21 @@ class SystemClass{
 		</head>
 		";
 	}
+
+	static function dbConnect(){
+		require_once"config.php";
+		return new mysqli($host, $db_user, $db_password, $db_name);
+	}
+
+	static function blockEntraceNotsigned($movo_to) {
+		if(!isset($_SESSION['signedIn'])){
+			header("Location: $move_to");
+		}
+	}
+
+	static function blockEntraceSigned($move_to) {
+		if(isset($_SESSION['signedIn'])){
+			header("Location: $move_to");
+		}
+	}
 }
-?>
